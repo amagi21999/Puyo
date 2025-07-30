@@ -7,6 +7,5 @@ public class R_Judg : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Move_PuyoController.MPC.R_True();
-        Debug.Log("R");
     }
 }

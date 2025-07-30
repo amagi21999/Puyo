@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ReturnTitleController : MonoBehaviour
+public class Retry : MonoBehaviour
 {
     public void OnClick()
     {
-        SceneManager.LoadScene("TitleScene");
+        SceneManager.LoadScene("PUYO");
     }
 }

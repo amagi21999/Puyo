@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/TitleScene.unity
-    guid: 01e75e698e42ff44cacdfa25b62a50fe
-  - enabled: 0
-    path: Assets/Scenes/Osero.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Start_Menu.unity
+    guid: 54108631499d06f4a9baa3fbd2e612ac
   - enabled: 1
     path: Assets/Scenes/PUYO.unity
     guid: 75b734e066894e541b5bd64d5b9a718b

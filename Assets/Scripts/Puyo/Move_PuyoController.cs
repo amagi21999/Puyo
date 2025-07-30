@@ -41,7 +41,7 @@ public class Move_PuyoController : MonoBehaviour
             PUYO[i].GetComponent<SpriteRenderer>().sprite = Puyo_Sprite[P_GameController.GC.Color[i]];
         }
         Vector3 pos = transform.position;
-        P_GameController.GC.Move_judge(pos.x,0);
+        //P_GameController.GC.Move_judge(pos.x,0);
     }
 
     // Update is called once per frame
@@ -110,7 +110,7 @@ public class Move_PuyoController : MonoBehaviour
         //óéâ∫à íuó\ë™
         if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Z))
         {
-            P_GameController.GC.Move_judge(pos.x, angle.z);
+            //P_GameController.GC.Move_judge(pos.x, angle.z);
         }
         //óéâ∫èàóù
         pos.y -= Down_Speed;
